@@ -1,0 +1,9 @@
+LABEL BOOTMED32
+MENU LABEL ^BootMed Live - x86
+KERNEL er/plugins/bootmed/i386/vmlinuz
+INITRD er/plugins/bootmed/i386/initrd.lz
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/bootmed/i386/ ramdisk_size=200000 nolock
+TEXT HELP
+                 BootMed Live x86.
+                 Created with Ubuntu Customization Kit.
+ENDTEXT

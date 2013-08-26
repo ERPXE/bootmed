@@ -1,0 +1,16 @@
+.:
+bootmed.menu
+bootmed.png
+filelist.txt
+i386
+x86_64
+
+./i386:
+bootmedmain.menu
+initrd.lz
+vmlinuz
+
+./x86_64:
+bootmedmain.menu
+initrd.lz
+vmlinuz

@@ -1,0 +1,14 @@
+MENU BEGIN BOOTMEDLIVE
+MENU LABEL ^BootMed Live
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/bootmed/bootmed.png
+
+MENU INCLUDE er/plugins/bootmed/i386/bootmedmain.menu
+MENU INCLUDE er/plugins/bootmed/x86_64/bootmedmain.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END
